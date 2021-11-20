@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jobs">
+
+    <!--    <shape-->
+<!--        android:layout_width="614dp"-->
+<!--        android:layout_height="298dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        android:shape="rectangle"-->
+<!--        android:visibility="visible"-->
+<!--        android:alpha="0.4"-->
+<!--        android:shadowColor="#3F51B5"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/jobDescriptionView"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/payView3"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/payView3"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/jobTitleView" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="541dp"
+        android:layout_height="898dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pizza_delivery" />
+
+    <TextView
+        android:id="@+id/jobDescriptionView"
+        android:layout_width="360dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="108dp"
+        android:shadowColor="#3F51B5"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="Here is an amazing job that any industrious person should do!!!!"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="@+id/jobTitleView" />
+
+    <TextView
+        android:id="@+id/jobTitleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:shadowColor="#3F51B5"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="Great Job"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/payView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/payView3"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="244dp"
+        android:shadowColor="#3F51B5"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="Indonesia"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="@+id/jobTitleView" />
+
+    <TextView
+        android:id="@+id/timeView"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="196dp"
+        android:shadowColor="#3F51B5"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="15-30 Minutes"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="@+id/jobTitleView" />
+
+    <TextView
+        android:id="@+id/payView"
+        android:layout_width="363dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="292dp"
+        android:shadowColor="#3F51B5"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:text="$5-8"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.301"
+        app:layout_constraintStart_toStartOf="@+id/jobTitleView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

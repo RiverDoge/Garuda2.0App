@@ -1,0 +1,2 @@
+rootProject.name = "Garuda2.0App"
+include ':app'
